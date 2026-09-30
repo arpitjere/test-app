@@ -1,0 +1,8 @@
+name: Test Caller Workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    uses: arpitjere/reusable-workflows/.github/workflows/dotnet-build.yml@v1.2.0
